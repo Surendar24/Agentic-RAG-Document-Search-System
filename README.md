@@ -77,7 +77,7 @@ An advanced Retrieval-Augmented Generation (RAG) system that combines document r
    ```bash
    cp .env.example .env
    ```
-   Edit `.env` and add your OpenAI API key and other configurations.
+   Edit `.env` and add your OpenAI API key, GROQ API key and other configurations.
 
 ### Usage
 
@@ -98,6 +98,7 @@ python main.py
 Edit the `.env` file to configure:
 
 - `OPENAI_API_KEY`: Your OpenAI API key
+- `GROQ_API_KEY`: Your GROQ API key
 - `MODEL_NAME`: LLM model to use (default: gpt-3.5-turbo)
 - `CHUNK_SIZE`: Document chunk size (default: 500)
 - `CHUNK_OVERLAP`: Overlap between chunks (default: 50)
