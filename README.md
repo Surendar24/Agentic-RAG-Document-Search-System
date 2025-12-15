@@ -151,5 +151,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Acknowledgments
 
 - LangChain for the RAG framework
-- OpenAI for the language models
+- OpenAI, GROQ for the language models
 - Streamlit for the web interface
